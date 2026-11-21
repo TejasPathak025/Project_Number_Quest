@@ -63,7 +63,7 @@ int playGame(int max, int tries)
     printf("You lost! The number was %d.\n", secret);
     return 0;
 }
-
+/* main: shows the menu and starts the game for the chosen level */
 int main()
 {
     int choice;       /* the menu option the player picks */
